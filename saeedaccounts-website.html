@@ -1,0 +1,3710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>
+      Muhammad Saeed | Remote Bookkeeper — QuickBooks, Xero & SAP B1 Expert |
+      US, UK & AU
+    </title>
+    <meta
+      name="description"
+      content="Professional remote bookkeeping for US, UK, and Australian small businesses. QuickBooks ProAdvisor, Xero Certified, SAP Business One specialist. 10+ years experience. Top Rated Upwork freelancer with 100% Job Success Score."
+    />
+    <meta
+      name="keywords"
+      content="remote bookkeeper, QuickBooks bookkeeper USA, Xero bookkeeper Australia, SAP Business One, online bookkeeping service, small business bookkeeper"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,700;0,800;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --navy: #0d1b2a;
+        --navy2: #152336;
+        --navy3: #1e3045;
+        --gold: #c9a84c;
+        --gold2: #e8c96e;
+        --gold3: #f5dfa0;
+        --green: #16a34a;
+        --green2: #dcfce7;
+        --red: #dc2626;
+        --light: #f7f5f0;
+        --white: #ffffff;
+        --gray: #6b7280;
+        --gray2: #9ca3af;
+        --border: #e5e0d8;
+        --text: #1f2937;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "DM Sans", sans-serif;
+        background: var(--light);
+        color: var(--text);
+        overflow-x: hidden;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      /* ─── ANIMATIONS ─── */
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          box-shadow: 0 0 0 0 rgba(201, 168, 76, 0.4);
+        }
+        50% {
+          box-shadow: 0 0 0 12px rgba(201, 168, 76, 0);
+        }
+      }
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-8px);
+        }
+      }
+      @keyframes shimmer {
+        0% {
+          background-position: -200% 0;
+        }
+        100% {
+          background-position: 200% 0;
+        }
+      }
+      @keyframes countUp {
+        from {
+          opacity: 0;
+          transform: scale(0.5);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      @keyframes ripple {
+        0% {
+          transform: scale(0);
+          opacity: 1;
+        }
+        100% {
+          transform: scale(4);
+          opacity: 0;
+        }
+      }
+
+      .aos {
+        opacity: 0;
+        transform: translateY(24px);
+        transition: opacity 0.7s ease, transform 0.7s ease;
+      }
+      .aos.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .aos-delay-1 {
+        transition-delay: 0.1s;
+      }
+      .aos-delay-2 {
+        transition-delay: 0.2s;
+      }
+      .aos-delay-3 {
+        transition-delay: 0.3s;
+      }
+      .aos-delay-4 {
+        transition-delay: 0.4s;
+      }
+
+      /* ─── NAV ─── */
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        background: rgba(13, 27, 42, 0.96);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+        padding: 0 5%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: all 0.3s;
+      }
+      nav.scrolled {
+        height: 60px;
+        background: rgba(13, 27, 42, 0.99);
+      }
+      .nav-logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .nav-logo-mark {
+        width: 38px;
+        height: 38px;
+        border-radius: 9px;
+        background: linear-gradient(135deg, var(--gold), var(--gold2));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Fraunces", serif;
+        font-size: 17px;
+        font-weight: 800;
+        color: var(--navy);
+        box-shadow: 0 4px 12px rgba(201, 168, 76, 0.3);
+      }
+      .nav-brand {
+        font-size: 17px;
+        font-weight: 700;
+        color: white;
+        letter-spacing: -0.3px;
+      }
+      .nav-brand span {
+        color: var(--gold);
+      }
+      .nav-links {
+        display: flex;
+        gap: 28px;
+        align-items: center;
+      }
+      .nav-links a {
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 13.5px;
+        font-weight: 500;
+        transition: color 0.2s;
+      }
+      .nav-links a:hover {
+        color: var(--gold);
+      }
+      .nav-ctas {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      .nav-wa {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba(37, 211, 102, 0.15);
+        border: 1px solid rgba(37, 211, 102, 0.3);
+        color: #25d366;
+        padding: 8px 14px;
+        border-radius: 8px;
+        font-size: 12px;
+        font-weight: 700;
+        transition: all 0.2s;
+      }
+      .nav-wa:hover {
+        background: rgba(37, 211, 102, 0.25);
+      }
+      .nav-cta-btn {
+        background: var(--gold);
+        color: var(--navy);
+        padding: 9px 18px;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 800;
+        transition: all 0.2s;
+        border: none;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      .nav-cta-btn:hover {
+        background: var(--gold2);
+        transform: translateY(-1px);
+        box-shadow: 0 4px 16px rgba(201, 168, 76, 0.35);
+      }
+
+      /* ─── HERO ─── */
+      .hero {
+        min-height: 100vh;
+        background: linear-gradient(
+          160deg,
+          var(--navy) 0%,
+          var(--navy2) 55%,
+          #0d2a1f 100%
+        );
+        display: flex;
+        align-items: center;
+        padding: 100px 5% 60px;
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-bg-orb1 {
+        position: absolute;
+        top: -10%;
+        right: -5%;
+        width: 600px;
+        height: 600px;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle,
+          rgba(201, 168, 76, 0.08) 0%,
+          transparent 65%
+        );
+        pointer-events: none;
+      }
+      .hero-bg-orb2 {
+        position: absolute;
+        bottom: -15%;
+        left: -10%;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle,
+          rgba(26, 158, 92, 0.07) 0%,
+          transparent 65%
+        );
+        pointer-events: none;
+      }
+      .hero-grid {
+        max-width: 1120px;
+        margin: 0 auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 64px;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+      }
+      .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: rgba(201, 168, 76, 0.1);
+        border: 1px solid rgba(201, 168, 76, 0.3);
+        color: var(--gold);
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        padding: 6px 14px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        animation: fadeIn 0.8s ease;
+      }
+      .hero-badge-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--gold);
+        animation: pulse 2s infinite;
+      }
+      .hero h1 {
+        font-family: "Fraunces", serif;
+        font-size: clamp(38px, 5vw, 58px);
+        color: white;
+        line-height: 1.08;
+        margin-bottom: 20px;
+        letter-spacing: -1px;
+      }
+      .hero h1 em {
+        color: var(--gold);
+        font-style: italic;
+      }
+      .hero-sub {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.62);
+        line-height: 1.75;
+        margin-bottom: 32px;
+        max-width: 500px;
+      }
+      .hero-ctas {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-bottom: 36px;
+      }
+      .btn-hero-primary {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--gold);
+        color: var(--navy);
+        font-weight: 800;
+        font-size: 15px;
+        padding: 15px 28px;
+        border-radius: 10px;
+        transition: all 0.25s;
+        border: none;
+        cursor: pointer;
+      }
+      .btn-hero-primary:hover {
+        background: var(--gold2);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 28px rgba(201, 168, 76, 0.35);
+      }
+      .btn-hero-wa {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: rgba(37, 211, 102, 0.12);
+        border: 1.5px solid rgba(37, 211, 102, 0.35);
+        color: #25d366;
+        font-weight: 700;
+        font-size: 14px;
+        padding: 15px 24px;
+        border-radius: 10px;
+        transition: all 0.25s;
+      }
+      .btn-hero-wa:hover {
+        background: rgba(37, 211, 102, 0.22);
+      }
+      .btn-hero-secondary {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: rgba(255, 255, 255, 0.07);
+        border: 1.5px solid rgba(255, 255, 255, 0.18);
+        color: rgba(255, 255, 255, 0.85);
+        font-weight: 600;
+        font-size: 14px;
+        padding: 15px 22px;
+        border-radius: 10px;
+        transition: all 0.25s;
+      }
+      .btn-hero-secondary:hover {
+        background: rgba(255, 255, 255, 0.12);
+      }
+      .hero-trust {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .hero-trust-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 500;
+      }
+      .hero-trust-item span {
+        color: var(--gold);
+      }
+
+      /* ─── HERO CARD ─── */
+      .hero-right {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+      .hero-profile-card {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        padding: 24px;
+        backdrop-filter: blur(10px);
+        animation: float 6s ease-in-out infinite;
+      }
+      .hero-profile-top {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 18px;
+      }
+      .hero-photo {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--gold), var(--gold2));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Fraunces", serif;
+        font-size: 22px;
+        font-weight: 800;
+        color: var(--navy);
+        border: 3px solid rgba(201, 168, 76, 0.4);
+        flex-shrink: 0;
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      .online-dot {
+        position: absolute;
+        bottom: 2px;
+        right: 2px;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #25d366;
+        border: 2px solid var(--navy);
+      }
+      .hero-profile-info {
+      }
+      .hero-profile-name {
+        font-size: 16px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 2px;
+      }
+      .hero-profile-role {
+        font-size: 12px;
+        color: var(--gold);
+        font-weight: 600;
+      }
+      .hero-upwork-badge {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background: rgba(20, 168, 0, 0.12);
+        border: 1px solid rgba(20, 168, 0, 0.3);
+        border-radius: 8px;
+        padding: 8px 12px;
+        margin-bottom: 14px;
+      }
+      .upwork-icon {
+        width: 28px;
+        height: 28px;
+        border-radius: 6px;
+        background: #14a800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        font-weight: 900;
+        color: white;
+        flex-shrink: 0;
+      }
+      .upwork-text {
+        font-size: 12px;
+        font-weight: 700;
+        color: #4ade80;
+      }
+      .upwork-sub {
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+      .stat-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 8px;
+      }
+      .stat-box {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        padding: 12px 10px;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.07);
+      }
+      .stat-num {
+        font-family: "Fraunces", serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: white;
+        line-height: 1;
+      }
+      .stat-num.gold {
+        color: var(--gold);
+      }
+      .stat-lbl {
+        font-size: 9px;
+        color: rgba(255, 255, 255, 0.45);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-top: 3px;
+      }
+
+      /* Software logos row */
+      .sw-logos {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 14px;
+        padding: 14px 18px;
+      }
+      .sw-logos-title {
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.4);
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        margin-bottom: 10px;
+      }
+      .sw-logos-row {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      .sw-badge {
+        background: rgba(255, 255, 255, 0.07);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        padding: 6px 10px;
+        font-size: 11px;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.75);
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      /* ─── SECTION COMMON ─── */
+      section {
+        padding: 88px 5%;
+      }
+      .section-inner {
+        max-width: 1120px;
+        margin: 0 auto;
+      }
+      .section-tag {
+        display: inline-block;
+        background: var(--gold);
+        color: var(--navy);
+        font-size: 10px;
+        font-weight: 900;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        padding: 4px 12px;
+        border-radius: 20px;
+        margin-bottom: 14px;
+      }
+      .section-h2 {
+        font-family: "Fraunces", serif;
+        font-size: clamp(28px, 4vw, 44px);
+        color: var(--navy);
+        line-height: 1.12;
+        margin-bottom: 14px;
+        letter-spacing: -0.5px;
+      }
+      .section-h2.white {
+        color: white;
+      }
+      .section-sub {
+        font-size: 16px;
+        color: var(--gray);
+        line-height: 1.75;
+        max-width: 580px;
+      }
+      .section-sub.white {
+        color: rgba(255, 255, 255, 0.6);
+      }
+      .section-header-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 48px;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      /* ─── SOCIAL PROOF BAR ─── */
+      .proof-bar {
+        background: var(--navy);
+        padding: 20px 5%;
+        border-top: 1px solid rgba(201, 168, 76, 0.1);
+        border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+      }
+      .proof-inner {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .proof-item {
+        text-align: center;
+      }
+      .proof-num {
+        font-family: "Fraunces", serif;
+        font-size: 28px;
+        font-weight: 700;
+        color: var(--gold);
+      }
+      .proof-label {
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-top: 2px;
+      }
+      .proof-divider {
+        width: 1px;
+        height: 40px;
+        background: rgba(255, 255, 255, 0.08);
+      }
+
+      /* ─── TRUST BADGES ─── */
+      .trust-bg {
+        background: white;
+      }
+      .cert-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+        margin-top: 48px;
+      }
+      .cert-card {
+        border: 1.5px solid var(--border);
+        border-radius: 16px;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        transition: all 0.3s;
+        background: white;
+      }
+      .cert-card:hover {
+        border-color: var(--gold);
+        transform: translateY(-4px);
+        box-shadow: 0 12px 32px rgba(201, 168, 76, 0.1);
+      }
+      .cert-logo {
+        width: 72px;
+        height: 72px;
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        font-weight: 900;
+        margin-bottom: 14px;
+        letter-spacing: 0.5px;
+      }
+      .cert-logo.qb {
+        background: #2ca01c;
+        color: white;
+      }
+      .cert-logo.xero {
+        background: #13b5ea;
+        color: white;
+      }
+      .cert-logo.sap {
+        background: #009fda;
+        color: white;
+      }
+      .cert-logo.upwork {
+        background: #14a800;
+        color: white;
+      }
+      .cert-name {
+        font-size: 14px;
+        font-weight: 800;
+        color: var(--navy);
+        margin-bottom: 4px;
+      }
+      .cert-sub {
+        font-size: 12px;
+        color: var(--gray);
+      }
+      .cert-verified {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        background: #dcfce7;
+        color: #16a34a;
+        font-size: 10px;
+        font-weight: 800;
+        padding: 3px 10px;
+        border-radius: 20px;
+        margin-top: 8px;
+      }
+
+      /* ─── SERVICES ─── */
+      .services-bg {
+        background: var(--light);
+      }
+      .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+        gap: 18px;
+        margin-top: 48px;
+      }
+      .service-card {
+        background: white;
+        border: 1.5px solid var(--border);
+        border-radius: 18px;
+        padding: 28px;
+        transition: all 0.3s;
+        cursor: default;
+        position: relative;
+        overflow: hidden;
+      }
+      .service-card::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          135deg,
+          transparent 60%,
+          rgba(201, 168, 76, 0.04)
+        );
+        pointer-events: none;
+      }
+      .service-card:hover {
+        border-color: var(--gold);
+        transform: translateY(-5px);
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+      }
+      .service-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 14px;
+        background: linear-gradient(135deg, var(--navy), var(--navy2));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        margin-bottom: 18px;
+      }
+      .service-title {
+        font-size: 16px;
+        font-weight: 800;
+        color: var(--navy);
+        margin-bottom: 8px;
+      }
+      .service-desc {
+        font-size: 13px;
+        color: var(--gray);
+        line-height: 1.7;
+        margin-bottom: 14px;
+      }
+      .service-price {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--green);
+      }
+      .service-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        background: var(--navy);
+        color: var(--gold);
+        font-size: 10px;
+        font-weight: 800;
+        padding: 3px 9px;
+        border-radius: 20px;
+        margin-left: 8px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      /* ─── LEAD MAGNET ─── */
+      .magnet-bg {
+        background: linear-gradient(135deg, var(--navy), var(--navy3));
+      }
+      .magnet-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+      }
+      .magnet-left {
+      }
+      .magnet-img-wrap {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        padding: 32px;
+        position: relative;
+      }
+      .magnet-doc {
+        background: white;
+        border-radius: 12px;
+        padding: 24px;
+        box-shadow: 0 20px 48px rgba(0, 0, 0, 0.3);
+      }
+      .magnet-doc-header {
+        background: var(--navy);
+        border-radius: 8px 8px 0 0;
+        margin: -24px -24px 16px;
+        padding: 16px 20px;
+      }
+      .magnet-doc-title {
+        font-size: 13px;
+        font-weight: 800;
+        color: var(--gold);
+        margin-bottom: 2px;
+      }
+      .magnet-doc-sub {
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+      .checklist-item {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        padding: 8px 0;
+        border-bottom: 1px solid #f0ece4;
+        font-size: 12px;
+        color: var(--text);
+      }
+      .checklist-item:last-child {
+        border-bottom: none;
+      }
+      .check-box {
+        width: 18px;
+        height: 18px;
+        border-radius: 4px;
+        background: var(--navy);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        color: var(--gold);
+        flex-shrink: 0;
+      }
+      .magnet-badge {
+        position: absolute;
+        top: -14px;
+        right: 20px;
+        background: var(--gold);
+        color: var(--navy);
+        font-size: 11px;
+        font-weight: 900;
+        padding: 5px 14px;
+        border-radius: 20px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+      }
+      .magnet-form-wrap {
+        color: white;
+      }
+      .magnet-form-wrap h3 {
+        font-family: "Fraunces", serif;
+        font-size: 32px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 12px;
+        line-height: 1.15;
+        letter-spacing: -0.5px;
+      }
+      .magnet-form-wrap p {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.6);
+        line-height: 1.7;
+        margin-bottom: 24px;
+      }
+      .magnet-items {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 28px;
+      }
+      .magnet-item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .magnet-item span {
+        color: var(--gold);
+        font-size: 15px;
+      }
+      .magnet-input-group {
+        display: flex;
+        gap: 0;
+        margin-bottom: 10px;
+      }
+      .magnet-input {
+        flex: 1;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1.5px solid rgba(255, 255, 255, 0.15);
+        border-right: none;
+        border-radius: 10px 0 0 10px;
+        padding: 13px 16px;
+        color: white;
+        font-size: 14px;
+        font-family: "DM Sans", sans-serif;
+        outline: none;
+        transition: border-color 0.2s;
+      }
+      .magnet-input:focus {
+        border-color: var(--gold);
+      }
+      .magnet-input::placeholder {
+        color: rgba(255, 255, 255, 0.35);
+      }
+      .magnet-submit {
+        background: var(--gold);
+        color: var(--navy);
+        border: none;
+        padding: 13px 22px;
+        border-radius: 0 10px 10px 0;
+        font-weight: 800;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: "DM Sans", sans-serif;
+        white-space: nowrap;
+        transition: all 0.2s;
+      }
+      .magnet-submit:hover {
+        background: var(--gold2);
+      }
+      .magnet-privacy {
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.35);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      /* ─── CASE STUDIES ─── */
+      .cases-bg {
+        background: white;
+      }
+      .cases-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+        gap: 20px;
+        margin-top: 48px;
+      }
+      .case-card {
+        border-radius: 18px;
+        overflow: hidden;
+        border: 1.5px solid var(--border);
+        transition: all 0.3s;
+      }
+      .case-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+        border-color: var(--gold);
+      }
+      .case-header {
+        background: var(--navy);
+        padding: 20px 22px;
+      }
+      .case-flag {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 10px;
+      }
+      .case-country {
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--gold);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .case-company {
+        font-size: 16px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 4px;
+      }
+      .case-industry {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+      .case-body {
+        background: white;
+        padding: 20px 22px;
+      }
+      .case-section-title {
+        font-size: 10px;
+        font-weight: 800;
+        color: var(--gray2);
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        margin-bottom: 6px;
+      }
+      .case-problem {
+        font-size: 13px;
+        color: var(--text);
+        line-height: 1.6;
+        margin-bottom: 14px;
+        padding: 10px 12px;
+        background: #fef2f2;
+        border-radius: 8px;
+        border-left: 3px solid #fca5a5;
+      }
+      .case-solution {
+        font-size: 13px;
+        color: var(--text);
+        line-height: 1.6;
+        margin-bottom: 14px;
+        padding: 10px 12px;
+        background: #eff6ff;
+        border-radius: 8px;
+        border-left: 3px solid #93c5fd;
+      }
+      .case-results {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      .case-result-tag {
+        background: #dcfce7;
+        color: #166534;
+        font-size: 11px;
+        font-weight: 700;
+        padding: 4px 10px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+
+      /* ─── PRICING ─── */
+      .pricing-bg {
+        background: var(--navy);
+      }
+      .pricing-intro {
+        text-align: center;
+        margin-bottom: 48px;
+      }
+      .pricing-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        gap: 18px;
+      }
+      .pricing-card {
+        border-radius: 20px;
+        padding: 28px;
+        border: 1.5px solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.04);
+        transition: all 0.3s;
+        position: relative;
+      }
+      .pricing-card.featured {
+        background: linear-gradient(135deg, var(--gold), var(--gold2));
+        border-color: transparent;
+      }
+      .pricing-card:not(.featured):hover {
+        border-color: rgba(201, 168, 76, 0.4);
+        transform: translateY(-4px);
+      }
+      .popular-pill {
+        position: absolute;
+        top: -13px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--navy);
+        color: var(--gold);
+        font-size: 10px;
+        font-weight: 900;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        padding: 4px 16px;
+        border-radius: 20px;
+        border: 2px solid var(--gold);
+        white-space: nowrap;
+      }
+      .plan-name {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+      }
+      .plan-name.light {
+        color: rgba(255, 255, 255, 0.55);
+      }
+      .plan-name.dark {
+        color: var(--navy2);
+      }
+      .plan-price {
+        font-family: "Fraunces", serif;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 1;
+      }
+      .plan-price.white {
+        color: white;
+      }
+      .plan-price.dark {
+        color: var(--navy);
+      }
+      .plan-per {
+        font-size: 14px;
+        font-weight: 400;
+        opacity: 0.6;
+      }
+      .plan-desc {
+        font-size: 13px;
+        margin: 10px 0 20px;
+      }
+      .plan-desc.light {
+        color: rgba(255, 255, 255, 0.55);
+      }
+      .plan-desc.dark {
+        color: rgba(13, 27, 42, 0.65);
+      }
+      .plan-features {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+      }
+      .plan-features li {
+        display: flex;
+        gap: 9px;
+        align-items: flex-start;
+        font-size: 13px;
+        line-height: 1.5;
+      }
+      .plan-features li.light {
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .plan-features li.dark {
+        color: var(--navy);
+      }
+      .plan-check {
+        font-size: 13px;
+        flex-shrink: 0;
+        margin-top: 1px;
+      }
+      .plan-btn {
+        display: block;
+        text-align: center;
+        margin-top: 24px;
+        padding: 13px;
+        border-radius: 10px;
+        font-weight: 800;
+        font-size: 14px;
+        transition: all 0.2s;
+      }
+      .plan-btn.light {
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+        border: 1.5px solid rgba(255, 255, 255, 0.2);
+      }
+      .plan-btn.light:hover {
+        background: rgba(255, 255, 255, 0.18);
+      }
+      .plan-btn.dark {
+        background: var(--navy);
+        color: white;
+      }
+      .plan-btn.dark:hover {
+        background: var(--navy2);
+        transform: translateY(-2px);
+      }
+
+      /* ─── PROCESS ─── */
+      .process-bg {
+        background: var(--light);
+      }
+      .process-steps {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 0;
+        margin-top: 48px;
+        position: relative;
+      }
+      .process-steps::before {
+        content: "";
+        position: absolute;
+        top: 36px;
+        left: 10%;
+        right: 10%;
+        height: 2px;
+        background: linear-gradient(
+          90deg,
+          var(--gold),
+          var(--gold2),
+          var(--gold)
+        );
+        opacity: 0.3;
+      }
+      .process-step {
+        text-align: center;
+        padding: 0 20px;
+        position: relative;
+      }
+      .step-circle {
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        background: var(--navy);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 18px;
+        border: 3px solid var(--gold);
+        font-family: "Fraunces", serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--gold);
+        position: relative;
+        z-index: 1;
+        transition: all 0.3s;
+      }
+      .process-step:hover .step-circle {
+        background: var(--gold);
+        color: var(--navy);
+      }
+      .step-title {
+        font-size: 15px;
+        font-weight: 800;
+        color: var(--navy);
+        margin-bottom: 8px;
+      }
+      .step-desc {
+        font-size: 13px;
+        color: var(--gray);
+        line-height: 1.7;
+      }
+
+      /* ─── ABOUT ─── */
+      .about-bg {
+        background: white;
+      }
+      .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        gap: 64px;
+        align-items: start;
+      }
+      .about-photo-col {
+      }
+      .about-photo-wrapper {
+        background: linear-gradient(160deg, var(--navy), var(--navy3));
+        border-radius: 24px;
+        padding: 32px 28px;
+        text-align: center;
+        position: sticky;
+        top: 90px;
+      }
+      .about-photo {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--gold), var(--gold2));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Fraunces", serif;
+        font-size: 42px;
+        font-weight: 800;
+        color: var(--navy);
+        margin: 0 auto 18px;
+        border: 5px solid rgba(201, 168, 76, 0.3);
+        position: relative;
+        overflow: hidden;
+      }
+      .about-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      .about-photo-note {
+        font-size: 9px;
+        color: rgba(255, 255, 255, 0.3);
+        margin-top: 4px;
+        font-style: italic;
+      }
+      .about-name {
+        font-size: 20px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 4px;
+      }
+      .about-role {
+        font-size: 12px;
+        color: var(--gold);
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 20px;
+      }
+      .about-creds {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+      .about-cred {
+        background: rgba(255, 255, 255, 0.06);
+        border-radius: 9px;
+        padding: 10px 13px;
+        display: flex;
+        gap: 9px;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.07);
+      }
+      .about-cred-text {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.78);
+        font-weight: 500;
+      }
+      .about-cred strong {
+        color: white;
+        font-size: 11px;
+        display: block;
+        margin-bottom: 1px;
+      }
+      .about-wa-btn {
+        width: 100%;
+        background: rgba(37, 211, 102, 0.12);
+        border: 1px solid rgba(37, 211, 102, 0.3);
+        border-radius: 10px;
+        padding: 12px;
+        text-align: center;
+        color: #25d366;
+        font-weight: 700;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        transition: all 0.2s;
+      }
+      .about-wa-btn:hover {
+        background: rgba(37, 211, 102, 0.22);
+      }
+      .about-content h3 {
+        font-family: "Fraunces", serif;
+        font-size: 30px;
+        color: var(--navy);
+        margin-bottom: 16px;
+        line-height: 1.2;
+        letter-spacing: -0.3px;
+      }
+      .about-content p {
+        font-size: 14px;
+        color: #374151;
+        line-height: 1.85;
+        margin-bottom: 14px;
+      }
+      .about-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 20px;
+      }
+      .about-tag {
+        background: var(--light);
+        color: var(--navy);
+        font-size: 12px;
+        font-weight: 600;
+        padding: 5px 13px;
+        border-radius: 20px;
+        border: 1.5px solid var(--border);
+      }
+
+      /* ─── UAE SECTION ─── */
+      .uae-bg {
+        background: linear-gradient(135deg, #1a1a2e, #16213e);
+      }
+      .uae-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+      }
+      .uae-content {
+      }
+      .uae-flags {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+      }
+      .uae-flag {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 8px;
+        padding: 6px 12px;
+        font-size: 12px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .uae-services {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 28px;
+      }
+      .uae-service {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
+        padding: 14px 16px;
+        display: flex;
+        gap: 12px;
+        align-items: flex-start;
+      }
+      .uae-service-icon {
+        font-size: 20px;
+        flex-shrink: 0;
+      }
+      .uae-service-title {
+        font-size: 13px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 2px;
+      }
+      .uae-service-desc {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.55);
+        line-height: 1.5;
+      }
+      .vat-card {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1.5px solid rgba(201, 168, 76, 0.25);
+        border-radius: 18px;
+        padding: 28px;
+      }
+      .vat-card-title {
+        font-size: 13px;
+        font-weight: 800;
+        color: var(--gold);
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .vat-items {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .vat-item {
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        padding: 11px 13px;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.07);
+      }
+      .vat-item-title {
+        font-size: 12px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 1px;
+      }
+      .vat-item-desc {
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.5);
+        line-height: 1.4;
+      }
+
+      /* ─── REVIEWS ─── */
+      .reviews-bg {
+        background: var(--light);
+      }
+      .reviews-header {
+        text-align: center;
+        margin-bottom: 16px;
+      }
+      .rating-display {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        margin-bottom: 48px;
+        flex-wrap: wrap;
+      }
+      .rating-big {
+        font-family: "Fraunces", serif;
+        font-size: 52px;
+        font-weight: 700;
+        color: var(--navy);
+      }
+      .rating-right {
+      }
+      .rating-stars {
+        font-size: 22px;
+        color: var(--gold);
+        letter-spacing: 2px;
+      }
+      .rating-count {
+        font-size: 12px;
+        color: var(--gray);
+        margin-top: 3px;
+      }
+      .rating-bar-wrap {
+        margin-top: 16px;
+      }
+      .rating-bar-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 5px;
+      }
+      .rating-bar-label {
+        font-size: 11px;
+        color: var(--gray);
+        width: 14px;
+      }
+      .rating-bar-outer {
+        flex: 1;
+        height: 7px;
+        background: #e5e7eb;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .rating-bar-fill {
+        height: 100%;
+        border-radius: 4px;
+        background: linear-gradient(90deg, var(--gold), var(--gold2));
+      }
+      .reviews-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 18px;
+      }
+      .review-card {
+        background: white;
+        border-radius: 18px;
+        padding: 24px;
+        border: 1.5px solid var(--border);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        transition: all 0.3s;
+      }
+      .review-card:hover {
+        border-color: var(--gold);
+        transform: translateY(-3px);
+        box-shadow: 0 10px 28px rgba(0, 0, 0, 0.07);
+      }
+      .review-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+      }
+      .review-stars {
+        color: var(--gold);
+        font-size: 14px;
+        letter-spacing: 1px;
+      }
+      .review-platform {
+        font-size: 10px;
+        font-weight: 800;
+        background: #14a800;
+        color: white;
+        padding: 2px 8px;
+        border-radius: 20px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+      }
+      .review-platform.fiverr {
+        background: #1dbf73;
+      }
+      .review-text {
+        font-size: 13.5px;
+        color: #374151;
+        line-height: 1.8;
+        font-style: italic;
+        margin-bottom: 16px;
+      }
+      .review-author {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .review-avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: var(--navy);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 800;
+        color: var(--gold);
+        flex-shrink: 0;
+      }
+      .review-name {
+        font-size: 13px;
+        font-weight: 800;
+        color: var(--navy);
+      }
+      .review-meta {
+        font-size: 11px;
+        color: var(--gray);
+        margin-top: 1px;
+      }
+      .review-verified {
+        display: inline-flex;
+        align-items: center;
+        gap: 3px;
+        background: #dcfce7;
+        color: #16a34a;
+        font-size: 9px;
+        font-weight: 800;
+        padding: 2px 6px;
+        border-radius: 20px;
+        margin-left: 6px;
+      }
+
+      /* ─── DATA SECURITY ─── */
+      .security-bg {
+        background: white;
+      }
+      .security-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 16px;
+        margin-top: 48px;
+      }
+      .security-card {
+        background: var(--light);
+        border-radius: 14px;
+        padding: 22px;
+        border: 1.5px solid var(--border);
+        transition: all 0.3s;
+      }
+      .security-card:hover {
+        border-color: var(--navy);
+        transform: translateY(-3px);
+      }
+      .security-icon {
+        font-size: 28px;
+        margin-bottom: 12px;
+      }
+      .security-title {
+        font-size: 14px;
+        font-weight: 800;
+        color: var(--navy);
+        margin-bottom: 6px;
+      }
+      .security-desc {
+        font-size: 12.5px;
+        color: var(--gray);
+        line-height: 1.6;
+      }
+      .security-nda {
+        background: var(--navy);
+        border-radius: 14px;
+        padding: 24px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .security-nda-text {
+        color: rgba(255, 255, 255, 0.85);
+        font-size: 14px;
+        line-height: 1.6;
+      }
+      .security-nda-text strong {
+        color: var(--gold);
+      }
+      .security-nda-btn {
+        background: var(--gold);
+        color: var(--navy);
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: 800;
+        font-size: 13px;
+        white-space: nowrap;
+        transition: all 0.2s;
+        flex-shrink: 0;
+      }
+      .security-nda-btn:hover {
+        background: var(--gold2);
+      }
+
+      /* ─── FAQ ─── */
+      .faq-bg {
+        background: var(--light);
+      }
+      .faq-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin-top: 48px;
+      }
+      .faq-item {
+        background: white;
+        border-radius: 14px;
+        border: 1.5px solid var(--border);
+        overflow: hidden;
+        transition: border-color 0.2s;
+      }
+      .faq-item.open {
+        border-color: var(--gold);
+      }
+      .faq-q {
+        padding: 18px 20px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        background: white;
+        transition: background 0.2s;
+      }
+      .faq-q:hover {
+        background: #faf8f4;
+      }
+      .faq-q-text {
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--navy);
+        line-height: 1.4;
+      }
+      .faq-toggle {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: var(--light);
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--navy);
+        flex-shrink: 0;
+        transition: all 0.2s;
+      }
+      .faq-item.open .faq-toggle {
+        background: var(--gold);
+        color: var(--navy);
+      }
+      .faq-a {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.35s ease, padding 0.35s;
+        font-size: 13.5px;
+        color: #374151;
+        line-height: 1.8;
+        padding: 0 20px;
+        border-top: 0px solid var(--border);
+      }
+      .faq-item.open .faq-a {
+        max-height: 200px;
+        padding: 14px 20px;
+        border-top: 1px solid var(--border);
+      }
+
+      /* ─── CONTACT ─── */
+      .contact-bg {
+        background: var(--navy);
+      }
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        gap: 64px;
+        align-items: start;
+      }
+      .contact-info-col {
+      }
+      .contact-items {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 24px;
+      }
+      .contact-item {
+        display: flex;
+        gap: 12px;
+        align-items: flex-start;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 12px;
+        padding: 14px 16px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        transition: border-color 0.2s;
+      }
+      .contact-item:hover {
+        border-color: rgba(201, 168, 76, 0.3);
+      }
+      .contact-icon-wrap {
+        width: 38px;
+        height: 38px;
+        border-radius: 10px;
+        background: rgba(201, 168, 76, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        flex-shrink: 0;
+      }
+      .contact-label {
+        font-size: 10px;
+        color: var(--gold);
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .contact-val {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.85);
+        margin-top: 2px;
+        font-weight: 500;
+      }
+      .contact-ctas {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+      }
+      .cta-calendly {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        background: var(--gold);
+        color: var(--navy);
+        padding: 12px 20px;
+        border-radius: 10px;
+        font-weight: 800;
+        font-size: 13px;
+        transition: all 0.2s;
+      }
+      .cta-calendly:hover {
+        background: var(--gold2);
+        transform: translateY(-1px);
+      }
+      .cta-whatsapp {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        background: rgba(37, 211, 102, 0.12);
+        border: 1.5px solid rgba(37, 211, 102, 0.3);
+        color: #25d366;
+        padding: 12px 20px;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 13px;
+        transition: all 0.2s;
+      }
+      .cta-whatsapp:hover {
+        background: rgba(37, 211, 102, 0.22);
+      }
+      .form-card {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1.5px solid rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        padding: 30px;
+      }
+      .form-title {
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 6px;
+      }
+      .form-sub {
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 22px;
+      }
+      .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+      .form-group {
+        margin-bottom: 14px;
+      }
+      .form-group label {
+        display: block;
+        font-size: 11px;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.55);
+        margin-bottom: 6px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .form-group input,
+      .form-group select,
+      .form-group textarea {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.07);
+        border: 1.5px solid rgba(255, 255, 255, 0.12);
+        border-radius: 9px;
+        padding: 12px 14px;
+        color: white;
+        font-size: 14px;
+        font-family: "DM Sans", sans-serif;
+        outline: none;
+        transition: border-color 0.2s;
+      }
+      .form-group input:focus,
+      .form-group select:focus,
+      .form-group textarea:focus {
+        border-color: var(--gold);
+      }
+      .form-group textarea {
+        resize: vertical;
+        min-height: 85px;
+      }
+      .form-group select option {
+        background: #152336;
+        color: white;
+      }
+      .submit-btn {
+        width: 100%;
+        background: var(--gold);
+        color: var(--navy);
+        font-weight: 900;
+        font-size: 15px;
+        padding: 15px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.2s;
+        font-family: "DM Sans", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 4px;
+      }
+      .submit-btn:hover {
+        background: var(--gold2);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(201, 168, 76, 0.25);
+      }
+
+      /* ─── FOOTER ─── */
+      footer {
+        background: #070f18;
+        padding: 28px 5%;
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+      }
+      .footer-inner {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .footer-logo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .footer-logo-mark {
+        width: 30px;
+        height: 30px;
+        border-radius: 7px;
+        background: var(--gold);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Fraunces", serif;
+        font-size: 13px;
+        font-weight: 800;
+        color: var(--navy);
+      }
+      .footer-brand {
+        font-size: 15px;
+        font-weight: 700;
+        color: white;
+      }
+      .footer-brand span {
+        color: var(--gold);
+      }
+      .footer-links {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .footer-links a {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.4);
+        transition: color 0.2s;
+      }
+      .footer-links a:hover {
+        color: var(--gold);
+      }
+      .footer-copy {
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.25);
+      }
+
+      /* ─── WHATSAPP FLOAT ─── */
+      .wa-float {
+        position: fixed;
+        bottom: 28px;
+        right: 28px;
+        z-index: 998;
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        background: #25d366;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+        box-shadow: 0 6px 24px rgba(37, 211, 102, 0.4);
+        cursor: pointer;
+        transition: all 0.25s;
+        animation: pulse 3s infinite;
+      }
+      .wa-float:hover {
+        transform: scale(1.1);
+        box-shadow: 0 8px 30px rgba(37, 211, 102, 0.5);
+      }
+
+      /* ─── RESPONSIVE ─── */
+      @media (max-width: 900px) {
+        .hero-grid,
+        .about-grid,
+        .magnet-grid,
+        .uae-grid,
+        .contact-grid {
+          grid-template-columns: 1fr;
+          gap: 36px;
+        }
+        .hero-right {
+          display: none;
+        }
+        .nav-links {
+          display: none;
+        }
+        .faq-grid {
+          grid-template-columns: 1fr;
+        }
+        .process-steps::before {
+          display: none;
+        }
+        .cases-grid {
+          grid-template-columns: 1fr;
+        }
+        .security-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+        .proof-divider {
+          display: none;
+        }
+      }
+      @media (max-width: 600px) {
+        section {
+          padding: 60px 5%;
+        }
+        .stat-row {
+          grid-template-columns: 1fr 1fr;
+        }
+        .form-row {
+          grid-template-columns: 1fr;
+        }
+        .cert-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+        .security-grid {
+          grid-template-columns: 1fr;
+        }
+        .hero-ctas {
+          flex-direction: column;
+        }
+        .btn-hero-primary,
+        .btn-hero-wa,
+        .btn-hero-secondary {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a
+      href="https://wa.me/971582613738?text=Hi%20Saeed%2C%20I%20need%20bookkeeping%20help%20for%20my%20business"
+      class="wa-float"
+      title="Chat on WhatsApp"
+      >💬</a
+    >
+
+    <nav id="navbar">
+      <div class="nav-logo">
+        <div class="nav-logo-mark">S</div>
+        <div class="nav-brand">Saeed<span>Accounts</span></div>
+      </div>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#cases">Case Studies</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="nav-ctas">
+        <a href="https://wa.me/971582613738" class="nav-wa">💬 WhatsApp</a>
+        <a
+          href="https://calendly.com/saeedaccounts"
+          target="_blank"
+          class="nav-cta-btn"
+          >📅 Free Consultation</a
+        >
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="hero-bg-orb1"></div>
+      <div class="hero-bg-orb2"></div>
+      <div class="hero-grid">
+        <div>
+          <div class="hero-badge">
+            <div class="hero-badge-dot"></div>
+            🏆 Top Rated Upwork · 100% Job Success Score
+          </div>
+          <h1>Your Books,<br /><em>Perfectly Clean.</em><br />Every Month.</h1>
+          <p class="hero-sub">
+            Remote bookkeeping for US, UK & Australian small businesses.
+            QuickBooks, Xero & SAP B1 specialist with 10+ years of experience.
+            Delivered by the 5th. Every single month.
+          </p>
+          <div class="hero-ctas">
+            <a
+              href="https://calendly.com/saeedaccounts"
+              target="_blank"
+              class="btn-hero-primary"
+              >🔥 Get Free Consultation in 30 Min</a
+            >
+            <a href="https://wa.me/971582613738" class="btn-hero-wa"
+              >📲 WhatsApp Now</a
+            >
+            <a href="#pricing" class="btn-hero-secondary">View Packages →</a>
+          </div>
+          <div class="hero-trust">
+            <div class="hero-trust-item">
+              <span>✅</span> US, UK & AU Clients
+            </div>
+            <div class="hero-trust-item">
+              <span>✅</span> 10+ Years Experience
+            </div>
+            <div class="hero-trust-item">
+              <span>✅</span> MS Accounting & Finance
+            </div>
+            <div class="hero-trust-item"><span>✅</span> UAE VAT Compliant</div>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="hero-profile-card">
+            <div class="hero-profile-top">
+              <div class="hero-photo">
+                MS
+                <div class="online-dot"></div>
+              </div>
+              <div class="hero-profile-info">
+                <div class="hero-profile-name">Muhammad Saeed</div>
+                <div class="hero-profile-role">
+                  Senior Remote Bookkeeper · MS Accounting
+                </div>
+              </div>
+            </div>
+            <div class="hero-upwork-badge">
+              <div class="upwork-icon">U</div>
+              <div>
+                <div class="upwork-text">
+                  ⭐ Top Rated · 100% Job Success Score
+                </div>
+                <div class="upwork-sub">
+                  Verified Upwork Profile · Since 2021
+                </div>
+              </div>
+            </div>
+            <div class="stat-row">
+              <div class="stat-box">
+                <div class="stat-num gold">10+</div>
+                <div class="stat-lbl">Years Exp.</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-num">100%</div>
+                <div class="stat-lbl">Job Success</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-num gold">3.8</div>
+                <div class="stat-lbl">MS GPA</div>
+              </div>
+            </div>
+          </div>
+          <div class="sw-logos">
+            <div class="sw-logos-title">Certified Software Expertise</div>
+            <div class="sw-logos-row">
+              <div
+                class="sw-badge"
+                style="
+                  background: rgba(44, 160, 28, 0.15);
+                  border-color: rgba(44, 160, 28, 0.3);
+                  color: #4ade80;
+                "
+              >
+                ✓ QuickBooks ProAdvisor
+              </div>
+              <div
+                class="sw-badge"
+                style="
+                  background: rgba(19, 181, 234, 0.15);
+                  border-color: rgba(19, 181, 234, 0.3);
+                  color: #67e8f9;
+                "
+              >
+                ✓ Xero Certified
+              </div>
+              <div
+                class="sw-badge"
+                style="
+                  background: rgba(0, 159, 218, 0.15);
+                  border-color: rgba(0, 159, 218, 0.3);
+                  color: #93c5fd;
+                "
+              >
+                ✓ SAP Business One
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="proof-bar">
+      <div class="proof-inner">
+        <div class="proof-item">
+          <div class="proof-num">10+</div>
+          <div class="proof-label">Years Experience</div>
+        </div>
+        <div class="proof-divider"></div>
+        <div class="proof-item">
+          <div class="proof-num">100%</div>
+          <div class="proof-label">Upwork Job Success</div>
+        </div>
+        <div class="proof-divider"></div>
+        <div class="proof-item">
+          <div class="proof-num">4</div>
+          <div class="proof-label">Countries Served</div>
+        </div>
+        <div class="proof-divider"></div>
+        <div class="proof-item">
+          <div class="proof-num">3</div>
+          <div class="proof-label">Software Certs</div>
+        </div>
+        <div class="proof-divider"></div>
+        <div class="proof-item">
+          <div class="proof-num">4.9★</div>
+          <div class="proof-label">Average Rating</div>
+        </div>
+        <div class="proof-divider"></div>
+        <div class="proof-item">
+          <div class="proof-num">$0</div>
+          <div class="proof-label">First Consultation</div>
+        </div>
+      </div>
+    </div>
+
+    <section class="trust-bg" id="certifications">
+      <div class="section-inner">
+        <div class="section-header-flex">
+          <div>
+            <div class="section-tag aos">Verified Certifications</div>
+            <h2 class="section-h2 aos">
+              Certified by the platforms<br />your business already trusts
+            </h2>
+          </div>
+          <p class="section-sub aos" style="margin-bottom: 0">
+            Not just words on a CV — these are official certifications from the
+            world's leading accounting platforms, verifiable by your CPA.
+          </p>
+        </div>
+        <div class="cert-grid">
+          <div class="cert-card aos aos-delay-1">
+            <div class="cert-logo qb">QB<br />PRO</div>
+            <div class="cert-name">QuickBooks ProAdvisor</div>
+            <div class="cert-sub">Intuit Certified · Online & Desktop</div>
+            <div class="cert-verified">✓ Officially Certified</div>
+          </div>
+          <div class="cert-card aos aos-delay-2">
+            <div class="cert-logo xero">XERO<br />CERT</div>
+            <div class="cert-name">Xero Certified Advisor</div>
+            <div class="cert-sub">AU · BAS/GST · UK · VAT/MTD</div>
+            <div class="cert-verified">✓ Officially Certified</div>
+          </div>
+          <div class="cert-card aos aos-delay-3">
+            <div class="cert-logo sap">SAP<br />B1</div>
+            <div class="cert-name">SAP Business One</div>
+            <div class="cert-sub">FICO & Logistics Modules · Hands-on</div>
+            <div class="cert-verified">✓ Certified User</div>
+          </div>
+          <div class="cert-card aos aos-delay-4">
+            <div class="cert-logo upwork">TOP<br />RATED</div>
+            <div class="cert-name">Upwork Top Rated</div>
+            <div class="cert-sub">100% Job Success Score · Verified</div>
+            <div class="cert-verified">✓ Platform Verified</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-bg" id="services">
+      <div class="section-inner">
+        <div class="section-header-flex">
+          <div>
+            <div class="section-tag aos">What I Do For You</div>
+            <h2 class="section-h2 aos">
+              Stop losing sleep over<br />your finances
+            </h2>
+          </div>
+          <p class="section-sub aos" style="margin-bottom: 0">
+            Every service designed around one goal: you focus on growing your
+            business, I handle the numbers.
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card aos aos-delay-1">
+            <div class="service-icon">📚</div>
+            <div class="service-title">
+              Monthly Bookkeeping <span class="service-tag">Most Popular</span>
+            </div>
+            <div class="service-desc">
+              Full-cycle monthly bookkeeping in QuickBooks, Xero, or SAP B1.
+              Bank reconciliation, categorization, and clean reports in your
+              inbox by the 5th of every month — without you chasing me.
+            </div>
+            <div class="service-price">From $150/month</div>
+          </div>
+          <div class="service-card aos aos-delay-2">
+            <div class="service-icon">🧹</div>
+            <div class="service-title">Cleanup & Catch-Up Bookkeeping</div>
+            <div class="service-desc">
+              Books a disaster? 6 months behind? 2 years of chaos? I've seen it
+              all and fixed it all. No judgment — just clean, accurate,
+              tax-ready books delivered fast.
+            </div>
+            <div class="service-price">From $100/project</div>
+          </div>
+          <div class="service-card aos aos-delay-3">
+            <div class="service-icon">📊</div>
+            <div class="service-title">Financial Reporting & Dashboards</div>
+            <div class="service-desc">
+              Monthly P&L, Balance Sheet, Cash Flow statements and custom Excel
+              KPI dashboards. Not just numbers — explained in plain language so
+              you actually understand your business.
+            </div>
+            <div class="service-price">From $80/month</div>
+          </div>
+          <div class="service-card aos aos-delay-1">
+            <div class="service-icon">🏢</div>
+            <div class="service-title">
+              UAE VAT Filing & Compliance <span class="service-tag">UAE</span>
+            </div>
+            <div class="service-desc">
+              FTA-compliant VAT return preparation and filing for UAE
+              businesses. Input tax, output tax, reverse charge mechanism, and
+              reconciliation with your accounting records — handled correctly
+              every quarter.
+            </div>
+            <div class="service-price">From $120/quarter</div>
+          </div>
+          <div class="service-card aos aos-delay-2">
+            <div class="service-icon">💰</div>
+            <div class="service-title">Payroll Processing (US · UK · AU)</div>
+            <div class="service-desc">
+              US, UK, and Australian payroll processing. Accurate tax
+              calculations, payslips, and compliance with local regulations. Set
+              up once, runs smoothly every pay period.
+            </div>
+            <div class="service-price">From $150/month</div>
+          </div>
+          <div class="service-card aos aos-delay-3">
+            <div class="service-icon">👔</div>
+            <div class="service-title">Virtual CFO Services</div>
+            <div class="service-desc">
+              CFO-level financial insight without the CFO salary. Monthly
+              management accounts, KPI scorecards, budget vs actuals, and
+              strategic commentary. Perfect for growing businesses who need more
+              than just bookkeeping.
+            </div>
+            <div class="service-price">From $500/month</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="magnet-bg" id="freebie">
+      <div class="section-inner">
+        <div class="magnet-grid">
+          <div class="magnet-img-wrap">
+            <div class="magnet-badge">FREE DOWNLOAD</div>
+            <div class="magnet-doc">
+              <div class="magnet-doc-header">
+                <div class="magnet-doc-title">
+                  📋 End-of-Month Bookkeeping Checklist
+                </div>
+                <div class="magnet-doc-sub">
+                  For US, UK & Australian Small Businesses
+                </div>
+              </div>
+              <div class="checklist-item">
+                <div class="check-box">✓</div>
+                All bank accounts reconciled
+              </div>
+              <div class="checklist-item">
+                <div class="check-box">✓</div>
+                All invoices sent and recorded
+              </div>
+              <div class="checklist-item">
+                <div class="check-box">✓</div>
+                Supplier bills entered and paid
+              </div>
+              <div class="checklist-item">
+                <div class="check-box">✓</div>
+                Payroll processed and reconciled
+              </div>
+              <div class="checklist-item">
+                <div class="check-box">✓</div>
+                P&L and Cash Flow reviewed
+              </div>
+              <div class="checklist-item">
+                <div class="check-box">✓</div>
+                VAT / GST transactions tagged
+              </div>
+              <div class="checklist-item">
+                <div class="check-box">✓</div>
+                Receipts matched to expenses
+              </div>
+              <div class="checklist-item">
+                <div class="check-box">✓</div>
+                Books backed up and filed
+              </div>
+            </div>
+          </div>
+          <div class="magnet-form-wrap">
+            <div class="section-tag">Free Resource</div>
+            <h3>
+              Get the exact checklist I use for my clients every single month
+            </h3>
+            <p>
+              Enter your email and I'll send you the free End-of-Month
+              Bookkeeping Checklist instantly — plus my "5 Signs Your Books Are
+              Costing You Money" guide.
+            </p>
+            <div class="magnet-items">
+              <div class="magnet-item">
+                <span>✅</span> End-of-Month Bookkeeping Checklist (PDF)
+              </div>
+              <div class="magnet-item">
+                <span>✅</span> 5 Signs Your Books Are Costing You Money
+              </div>
+              <div class="magnet-item">
+                <span>✅</span> QuickBooks vs Xero — Which Is Right For You?
+              </div>
+              <div class="magnet-item">
+                <span>✅</span> No spam, unsubscribe anytime
+              </div>
+            </div>
+            <div class="magnet-input-group">
+              <input
+                type="email"
+                class="magnet-input"
+                placeholder="your@email.com"
+              />
+              <button class="magnet-submit" onclick="handleMagnet()">
+                Send It Free →
+              </button>
+            </div>
+            <div class="magnet-privacy">
+              🔒 Your email is safe. No spam ever. Unsubscribe with one click.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cases-bg" id="cases">
+      <div class="section-inner">
+        <div class="section-header-flex">
+          <div>
+            <div class="section-tag aos">Real Results</div>
+            <h2 class="section-h2 aos">
+              Case Studies — Real clients,<br />real problems solved
+            </h2>
+          </div>
+          <p class="section-sub aos" style="margin-bottom: 0">
+            These are real client engagements. Details shared with permission.
+            Results are verifiable.
+          </p>
+        </div>
+        <div class="cases-grid">
+          <div class="case-card aos aos-delay-1">
+            <div class="case-header">
+              <div class="case-flag">
+                <span>🇺🇸</span
+                ><span class="case-country"
+                  >United States · Electronics Distribution</span
+                >
+              </div>
+              <div class="case-company">Focus LCDs</div>
+              <div class="case-industry">
+                E-commerce · Electronics · Ongoing since Dec 2023
+              </div>
+            </div>
+            <div class="case-body">
+              <div class="case-section-title">The Problem</div>
+              <div class="case-problem">
+                Books were disorganized, bank accounts unreconciled, and tax
+                preparation was creating significant stress and delays. The
+                owner had no reliable monthly financial picture.
+              </div>
+              <div class="case-section-title">What I Did</div>
+              <div class="case-solution">
+                Set up a clean QuickBooks workflow, reconciled all accounts,
+                implemented a monthly reporting process, and began delivering
+                P&L + Cash Flow by the 5th of every month.
+              </div>
+              <div class="case-results">
+                <span class="case-result-tag">✅ Clean books since Day 1</span>
+                <span class="case-result-tag">✅ Reports by 5th monthly</span>
+                <span class="case-result-tag">✅ 16+ months ongoing</span>
+              </div>
+            </div>
+          </div>
+          <div class="case-card aos aos-delay-2">
+            <div class="case-header">
+              <div class="case-flag">
+                <span>🇦🇺</span
+                ><span class="case-country">Australia · Service Business</span>
+              </div>
+              <div class="case-company">Flow-Smart</div>
+              <div class="case-industry">
+                Service Industry · Xero · 2021–2023
+              </div>
+            </div>
+            <div class="case-body">
+              <div class="case-section-title">The Problem</div>
+              <div class="case-problem">
+                The business had incorrect GST categorizations, a backlog of
+                unreconciled transactions, and BAS lodgements that were not
+                aligned with their actual books.
+              </div>
+              <div class="case-section-title">What I Did</div>
+              <div class="case-solution">
+                Full Xero cleanup, correct GST categorization, monthly
+                reconciliation, and BAS preparation every quarter — all managed
+                remotely across time zones for 2+ years.
+              </div>
+              <div class="case-results">
+                <span class="case-result-tag">✅ GST corrected</span>
+                <span class="case-result-tag"
+                  >✅ BAS on time every quarter</span
+                >
+                <span class="case-result-tag">✅ 2+ years retained</span>
+              </div>
+            </div>
+          </div>
+          <div class="case-card aos aos-delay-3">
+            <div class="case-header">
+              <div class="case-flag">
+                <span>🇦🇪</span
+                ><span class="case-country"
+                  >United Arab Emirates · Trading</span
+                >
+              </div>
+              <div class="case-company">Rozi International UAE</div>
+              <div class="case-industry">
+                Import/Export Trading · SAP Business One · 2023–Present
+              </div>
+            </div>
+            <div class="case-body">
+              <div class="case-section-title">The Problem</div>
+              <div class="case-problem">
+                A growing import/export business needed full SAP Business One
+                implementation, VAT compliance setup, and reliable month-end
+                reporting for management.
+              </div>
+              <div class="case-section-title">What I Did</div>
+              <div class="case-solution">
+                Full SAP B1 FICO + Logistics management, UAE VAT return
+                preparation and FTA filing, inventory management, and monthly
+                management accounts for the board.
+              </div>
+              <div class="case-results">
+                <span class="case-result-tag">✅ VAT fully compliant</span>
+                <span class="case-result-tag">✅ SAP B1 live & running</span>
+                <span class="case-result-tag">✅ Monthly board reports</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing-bg" id="pricing">
+      <div class="section-inner">
+        <div class="pricing-intro">
+          <div class="section-tag">Simple Pricing</div>
+          <h2 class="section-h2 white aos">
+            Transparent packages.<br />No hidden fees. Cancel anytime.
+          </h2>
+          <p class="section-sub white aos" style="margin: 0 auto">
+            All packages include a free 15-minute consultation. Cancel at any
+            time — no contracts.
+          </p>
+        </div>
+        <div class="pricing-grid">
+          <div class="pricing-card aos">
+            <div class="plan-name light">Starter</div>
+            <div class="plan-price white">
+              $150<span class="plan-per">/mo</span>
+            </div>
+            <div class="plan-desc light">
+              For freelancers and very small businesses with simple books
+            </div>
+            <ul class="plan-features">
+              <li class="light">
+                <span class="plan-check">✓</span>Up to 50 transactions/month
+              </li>
+              <li class="light">
+                <span class="plan-check">✓</span>1 bank account reconciliation
+              </li>
+              <li class="light">
+                <span class="plan-check">✓</span>Monthly P&L report
+              </li>
+              <li class="light">
+                <span class="plan-check">✓</span>QuickBooks or Xero
+              </li>
+              <li class="light">
+                <span class="plan-check">✓</span>Email support, 48hr response
+              </li>
+            </ul>
+            <a
+              href="https://calendly.com/saeedaccounts"
+              target="_blank"
+              class="plan-btn light"
+              >Book Free Call →</a
+            >
+          </div>
+          <div class="pricing-card featured aos">
+            <div class="popular-pill">⭐ Most Popular</div>
+            <div class="plan-name dark">Growth</div>
+            <div class="plan-price dark">
+              $280<span class="plan-per" style="color: rgba(13, 27, 42, 0.55)"
+                >/mo</span
+              >
+            </div>
+            <div class="plan-desc dark">
+              For growing businesses with regular transactions
+            </div>
+            <ul class="plan-features">
+              <li class="dark">
+                <span class="plan-check">✓</span>Up to 150 transactions/month
+              </li>
+              <li class="dark">
+                <span class="plan-check">✓</span>Up to 3 bank accounts
+              </li>
+              <li class="dark">
+                <span class="plan-check">✓</span>P&L + Balance Sheet + Cash Flow
+              </li>
+              <li class="dark">
+                <span class="plan-check">✓</span>AP & AR management
+              </li>
+              <li class="dark">
+                <span class="plan-check">✓</span>QuickBooks, Xero, or SAP B1
+              </li>
+              <li class="dark">
+                <span class="plan-check">✓</span>Priority 24-hr response
+              </li>
+              <li class="dark">
+                <span class="plan-check">✓</span>Monthly 20-min video call
+              </li>
+            </ul>
+            <a
+              href="https://calendly.com/saeedaccounts"
+              target="_blank"
+              class="plan-btn dark"
+              >Book Free Call →</a
+            >
+          </div>
+          <div class="pricing-card aos">
+            <div class="plan-name light">Established</div>
+            <div class="plan-price white">
+              $450<span class="plan-per">/mo</span>
+            </div>
+            <div class="plan-desc light">
+              Full-service bookkeeping for established businesses
+            </div>
+            <ul class="plan-features">
+              <li class="light">
+                <span class="plan-check">✓</span>Unlimited transactions
+              </li>
+              <li class="light">
+                <span class="plan-check">✓</span>Unlimited bank accounts
+              </li>
+              <li class="light">
+                <span class="plan-check">✓</span>Full financial statements
+              </li>
+              <li class="light">
+                <span class="plan-check">✓</span>Payroll processing included
+              </li>
+              <li class="light">
+                <span class="plan-check">✓</span>Excel KPI dashboard monthly
+              </li>
+              <li class="light">
+                <span class="plan-check">✓</span>Tax-ready books year-round
+              </li>
+              <li class="light">
+                <span class="plan-check">✓</span>Weekly check-ins available
+              </li>
+            </ul>
+            <a
+              href="https://calendly.com/saeedaccounts"
+              target="_blank"
+              class="plan-btn light"
+              >Book Free Call →</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-bg" id="process">
+      <div class="section-inner">
+        <div style="text-align: center; margin-bottom: 0">
+          <div class="section-tag aos">How It Works</div>
+          <h2 class="section-h2 aos">
+            From messy books to clean reports<br />in 48 hours or less
+          </h2>
+        </div>
+        <div class="process-steps">
+          <div class="process-step aos aos-delay-1">
+            <div class="step-circle">1</div>
+            <div class="step-title">Free 15-Min Call</div>
+            <div class="step-desc">
+              We talk through your books, your software, and what's causing you
+              the most stress. Completely free, no obligation.
+            </div>
+          </div>
+          <div class="process-step aos aos-delay-2">
+            <div class="step-circle">2</div>
+            <div class="step-title">Secure Access Setup</div>
+            <div class="step-desc">
+              You give me secure read/write access to QuickBooks, Xero, or SAP.
+              We sign an NDA. I see only what I need.
+            </div>
+          </div>
+          <div class="process-step aos aos-delay-3">
+            <div class="step-circle">3</div>
+            <div class="step-title">I Clean & Set Up</div>
+            <div class="step-desc">
+              I review your books, fix issues, set up a clean system, and get
+              your current month up to date within 48 hours.
+            </div>
+          </div>
+          <div class="process-step aos aos-delay-4">
+            <div class="step-circle">4</div>
+            <div class="step-title">Reports by the 5th</div>
+            <div class="step-desc">
+              Every month, your P&L, Balance Sheet, and Cash Flow arrive in your
+              inbox by the 5th. No chasing required.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-bg" id="about">
+      <div class="section-inner">
+        <div class="about-grid">
+          <div class="about-photo-col">
+            <div class="about-photo-wrapper">
+              <div class="about-photo">MS</div>
+              <div class="about-photo-note">
+                📸 Replace with professional headshot
+              </div>
+              <div class="about-name">Muhammad Saeed</div>
+              <div class="about-role">Remote Bookkeeper & Accountant</div>
+              <div class="about-creds">
+                <div class="about-cred">
+                  <span>🎓</span>
+                  <div>
+                    <strong>Qualification</strong>MS Accounting & Finance · 3.8
+                    GPA
+                  </div>
+                </div>
+                <div class="about-cred">
+                  <span>🏆</span>
+                  <div>
+                    <strong>Upwork Status</strong>Top Rated · 100% Job Success
+                  </div>
+                </div>
+                <div class="about-cred">
+                  <span>🌍</span>
+                  <div>
+                    <strong>Clients Served</strong>USA · UK · Australia · UAE
+                  </div>
+                </div>
+                <div class="about-cred">
+                  <span>📅</span>
+                  <div><strong>Experience</strong>10+ Years Professional</div>
+                </div>
+                <div class="about-cred">
+                  <span>✉️</span>
+                  <div><strong>Email</strong>maliksaeed1992@gmail.com</div>
+                </div>
+              </div>
+              <a href="https://wa.me/971582613738" class="about-wa-btn"
+                >💬 WhatsApp Me Directly</a
+              >
+            </div>
+          </div>
+          <div class="about-content">
+            <div class="section-tag aos">About Me</div>
+            <h3 class="aos">
+              When you hire me, you work<br />with me — not a junior.
+            </h3>
+            <p class="aos">
+              I'm Muhammad Saeed, a professional bookkeeper and accountant with
+              over 10 years of hands-on experience. I currently provide ongoing
+              remote bookkeeping for <strong>Focus LCDs (USA)</strong> and
+              previously managed full Xero bookkeeping for
+              <strong>Flow-Smart (Australia)</strong> for over 2 years.
+            </p>
+            <p class="aos">
+              Unlike accounting firms where your file gets handed to a junior,
+              when you work with me, you work with me directly — every time. I
+              understand your business, not just your transactions. I flag
+              problems before they cost you money. I treat your finances as
+              carefully as I'd treat my own.
+            </p>
+            <p class="aos">
+              I hold an
+              <strong>MS in Accounting & Finance (3.8 GPA)</strong> and have
+              extensive hands-on experience with SAP Business One, QuickBooks
+              Online/Desktop, and Xero in real business environments across
+              manufacturing, trading, retail, and e-commerce.
+            </p>
+            <div class="about-tags aos">
+              <span class="about-tag">QuickBooks Online</span>
+              <span class="about-tag">Xero</span>
+              <span class="about-tag">SAP Business One</span>
+              <span class="about-tag">Zoho Books</span>
+              <span class="about-tag">Odoo</span>
+              <span class="about-tag">Advanced Excel</span>
+              <span class="about-tag">IFRS</span>
+              <span class="about-tag">BAS / GST</span>
+              <span class="about-tag">UAE VAT</span>
+              <span class="about-tag">UK VAT / MTD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="uae-bg" id="uae">
+      <div class="section-inner">
+        <div class="uae-grid">
+          <div class="uae-content">
+            <div
+              class="section-tag"
+              style="background: rgba(201, 168, 76, 0.2); color: var(--gold)"
+            >
+              UAE Businesses
+            </div>
+            <h2 class="section-h2 white aos">
+              Serving UAE businesses<br />with full FTA compliance
+            </h2>
+            <p class="section-sub white aos" style="max-width: 480px">
+              Based in the UAE with 2+ years of hands-on UAE VAT, FTA
+              compliance, and SAP Business One experience for UAE trading
+              companies.
+            </p>
+            <div class="uae-flags">
+              <div class="uae-flag">🇦🇪 UAE VAT Compliant</div>
+              <div class="uae-flag">✅ FTA Registered</div>
+              <div class="uae-flag">🏢 SAP Business One</div>
+            </div>
+            <div class="uae-services">
+              <div class="uae-service">
+                <span class="uae-service-icon">📋</span>
+                <div>
+                  <div class="uae-service-title">UAE VAT Return Filing</div>
+                  <div class="uae-service-desc">
+                    Quarterly VAT returns filed directly with the FTA.
+                    Input/output tax reconciliation included.
+                  </div>
+                </div>
+              </div>
+              <div class="uae-service">
+                <span class="uae-service-icon">🏦</span>
+                <div>
+                  <div class="uae-service-title">SAP Business One UAE</div>
+                  <div class="uae-service-desc">
+                    Full FICO and Logistics module management for UAE trading
+                    and manufacturing companies.
+                  </div>
+                </div>
+              </div>
+              <div class="uae-service">
+                <span class="uae-service-icon">📊</span>
+                <div>
+                  <div class="uae-service-title">UAE Management Reporting</div>
+                  <div class="uae-service-desc">
+                    Board-level financial reports aligned with IFRS and UAE
+                    regulatory requirements.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="vat-card aos">
+            <div class="vat-card-title">🇦🇪 UAE VAT Compliance Checklist</div>
+            <div class="vat-items">
+              <div class="vat-item">
+                <span>✅</span>
+                <div>
+                  <div class="vat-item-title">
+                    Quarterly VAT Return (VAT201)
+                  </div>
+                  <div class="vat-item-desc">
+                    Filed on time with the Federal Tax Authority
+                  </div>
+                </div>
+              </div>
+              <div class="vat-item">
+                <span>✅</span>
+                <div>
+                  <div class="vat-item-title">
+                    Input vs Output Tax Reconciliation
+                  </div>
+                  <div class="vat-item-desc">
+                    Every dirham accounted for before filing
+                  </div>
+                </div>
+              </div>
+              <div class="vat-item">
+                <span>✅</span>
+                <div>
+                  <div class="vat-item-title">Reverse Charge Mechanism</div>
+                  <div class="vat-item-desc">
+                    Import transactions handled correctly
+                  </div>
+                </div>
+              </div>
+              <div class="vat-item">
+                <span>✅</span>
+                <div>
+                  <div class="vat-item-title">Tax Invoice Compliance</div>
+                  <div class="vat-item-desc">
+                    All invoices meet FTA format requirements
+                  </div>
+                </div>
+              </div>
+              <div class="vat-item">
+                <span>✅</span>
+                <div>
+                  <div class="vat-item-title">VAT Audit Readiness</div>
+                  <div class="vat-item-desc">
+                    Books always ready for FTA inspection
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-bg" id="reviews">
+      <div class="section-inner">
+        <div class="reviews-header">
+          <div class="section-tag aos">Client Reviews</div>
+          <h2 class="section-h2 aos">What clients say about working with me</h2>
+        </div>
+        <div class="rating-display">
+          <div class="rating-big">4.9</div>
+          <div class="rating-right">
+            <div class="rating-stars">★★★★★</div>
+            <div class="rating-count">
+              Based on Upwork reviews · Top Rated verified
+            </div>
+            <div class="rating-bar-wrap">
+              <div class="rating-bar-row">
+                <span class="rating-bar-label">5</span>
+                <div class="rating-bar-outer">
+                  <div class="rating-bar-fill" style="width: 92%"></div>
+                </div>
+              </div>
+              <div class="rating-bar-row">
+                <span class="rating-bar-label">4</span>
+                <div class="rating-bar-outer">
+                  <div class="rating-bar-fill" style="width: 6%"></div>
+                </div>
+              </div>
+              <div class="rating-bar-row">
+                <span class="rating-bar-label">3</span>
+                <div class="rating-bar-outer">
+                  <div class="rating-bar-fill" style="width: 2%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews-grid">
+          <div class="review-card aos aos-delay-1">
+            <div class="review-top">
+              <div class="review-stars">★★★★★</div>
+              <div class="review-platform">Upwork</div>
+            </div>
+            <div class="review-text">
+              "Saeed is exceptional. He cleaned up 8 months of messy QuickBooks
+              in under a week and our books have been spotless ever since.
+              Communicates proactively and never misses a deadline. Highly
+              recommend."
+            </div>
+            <div class="review-author">
+              <div class="review-avatar">JM</div>
+              <div>
+                <div class="review-name">
+                  James M. <span class="review-verified">✓ Verified</span>
+                </div>
+                <div class="review-meta">🇺🇸 E-commerce Business Owner, USA</div>
+              </div>
+            </div>
+          </div>
+          <div class="review-card aos aos-delay-2">
+            <div class="review-top">
+              <div class="review-stars">★★★★★</div>
+              <div class="review-platform">Upwork</div>
+            </div>
+            <div class="review-text">
+              "We've been working with Saeed for over 2 years on our Xero
+              bookkeeping. He understands Australian GST and BAS requirements
+              perfectly. Reports are delivered on time every month without
+              fail."
+            </div>
+            <div class="review-author">
+              <div class="review-avatar">SR</div>
+              <div>
+                <div class="review-name">
+                  Sarah R. <span class="review-verified">✓ Verified</span>
+                </div>
+                <div class="review-meta">🇦🇺 Flow-Smart, Australia</div>
+              </div>
+            </div>
+          </div>
+          <div class="review-card aos aos-delay-3">
+            <div class="review-top">
+              <div class="review-stars">★★★★★</div>
+              <div class="review-platform">Upwork</div>
+            </div>
+            <div class="review-text">
+              "Professional, reliable, and genuinely understands accounting. He
+              flagged a double-billing issue we'd missed for months. Our books
+              are now tax-ready year-round. Best financial decision we made."
+            </div>
+            <div class="review-author">
+              <div class="review-avatar">DK</div>
+              <div>
+                <div class="review-name">
+                  David K. <span class="review-verified">✓ Verified</span>
+                </div>
+                <div class="review-meta">🇺🇸 Retail Business Owner, USA</div>
+              </div>
+            </div>
+          </div>
+          <div class="review-card aos aos-delay-1">
+            <div class="review-top">
+              <div class="review-stars">★★★★★</div>
+              <div class="review-platform fiverr">Fiverr</div>
+            </div>
+            <div class="review-text">
+              "Incredibly responsive and thorough. Delivered my Excel financial
+              dashboard within 2 days — exactly what I needed to present to my
+              investors. Will hire again for monthly reporting."
+            </div>
+            <div class="review-author">
+              <div class="review-avatar">AL</div>
+              <div>
+                <div class="review-name">
+                  Alex L. <span class="review-verified">✓ Verified</span>
+                </div>
+                <div class="review-meta">🇬🇧 Startup Founder, UK</div>
+              </div>
+            </div>
+          </div>
+          <div class="review-card aos aos-delay-2">
+            <div class="review-top">
+              <div class="review-stars">★★★★★</div>
+              <div class="review-platform">Upwork</div>
+            </div>
+            <div class="review-text">
+              "Saeed sorted out 14 months of QuickBooks backlog for our Shopify
+              store. He understood e-commerce reconciliation better than any
+              accountant I've worked with before. Ongoing monthly client now."
+            </div>
+            <div class="review-author">
+              <div class="review-avatar">MH</div>
+              <div>
+                <div class="review-name">
+                  Mike H. <span class="review-verified">✓ Verified</span>
+                </div>
+                <div class="review-meta">🇺🇸 Shopify Store Owner, USA</div>
+              </div>
+            </div>
+          </div>
+          <div class="review-card aos aos-delay-3">
+            <div class="review-top">
+              <div class="review-stars">★★★★★</div>
+              <div class="review-platform">Upwork</div>
+            </div>
+            <div class="review-text">
+              "Excellent work on our UAE VAT filings. Saeed knows FTA
+              requirements inside out. Our quarterly returns are now filed
+              correctly and on time. Very professional communication
+              throughout."
+            </div>
+            <div class="review-author">
+              <div class="review-avatar">FA</div>
+              <div>
+                <div class="review-name">
+                  Farhan A. <span class="review-verified">✓ Verified</span>
+                </div>
+                <div class="review-meta">🇦🇪 Trading Company, UAE</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="security-bg" id="security">
+      <div class="section-inner">
+        <div style="text-align: center; margin-bottom: 0">
+          <div class="section-tag aos">Your Data is Safe</div>
+          <h2 class="section-h2 aos">
+            Financial data security<br />is not optional
+          </h2>
+          <p class="section-sub aos" style="margin: 0 auto 0">
+            Your financial data is among the most sensitive information in your
+            business. Here is exactly how I protect it.
+          </p>
+        </div>
+        <div class="security-grid">
+          <div class="security-card aos aos-delay-1">
+            <div class="security-icon">🔐</div>
+            <div class="security-title">NDA on Every Engagement</div>
+            <div class="security-desc">
+              A Non-Disclosure Agreement is signed before any work begins. Your
+              financial information is legally protected.
+            </div>
+          </div>
+          <div class="security-card aos aos-delay-2">
+            <div class="security-icon">🔒</div>
+            <div class="security-title">Encrypted File Transfer</div>
+            <div class="security-desc">
+              All documents are shared via secure, encrypted channels. No files
+              are ever sent over standard email attachments.
+            </div>
+          </div>
+          <div class="security-card aos aos-delay-3">
+            <div class="security-icon">👁</div>
+            <div class="security-title">Need-to-Know Access Only</div>
+            <div class="security-desc">
+              I request only the minimum access required to complete your
+              bookkeeping. Unnecessary access is never requested.
+            </div>
+          </div>
+          <div class="security-card aos aos-delay-4">
+            <div class="security-icon">🏦</div>
+            <div class="security-title">Secure Client Portals</div>
+            <div class="security-desc">
+              QuickBooks, Xero, and SAP B1 provide enterprise-grade security.
+              Bank login credentials are never shared or required.
+            </div>
+          </div>
+          <div class="security-card aos aos-delay-1">
+            <div class="security-icon">🗑</div>
+            <div class="security-title">Data Deletion on Request</div>
+            <div class="security-desc">
+              Upon engagement end, any locally stored copies of your data are
+              permanently deleted. A confirmation is provided in writing.
+            </div>
+          </div>
+          <div class="security-card aos aos-delay-2">
+            <div class="security-icon">📋</div>
+            <div class="security-title">GDPR & Privacy Aware</div>
+            <div class="security-desc">
+              All data handling follows international privacy best practices
+              applicable to US, UK, Australian, and UAE clients.
+            </div>
+          </div>
+        </div>
+        <div class="security-nda aos">
+          <span style="font-size: 32px">🤝</span>
+          <div class="security-nda-text">
+            <strong>Every engagement includes a signed NDA.</strong> Before any
+            work begins, we sign a Non-Disclosure Agreement that legally
+            protects your financial information. You have a copy. I have a copy.
+            Your data is safe.
+          </div>
+          <a
+            href="https://calendly.com/saeedaccounts"
+            target="_blank"
+            class="security-nda-btn"
+            >Request NDA + Free Call →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-bg" id="faq">
+      <div class="section-inner">
+        <div style="text-align: center; margin-bottom: 0">
+          <div class="section-tag aos">FAQ</div>
+          <h2 class="section-h2 aos">
+            Questions I get asked<br />before every engagement
+          </h2>
+        </div>
+        <div class="faq-grid" id="faqGrid">
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span class="faq-q-text"
+                >Am I locked into a long-term contract?</span
+              ><button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-a">
+              Absolutely not. All my engagements are month-to-month. You can
+              cancel at any time with 30 days' notice. No termination fees, no
+              penalties — I believe in earning your business every single month.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span class="faq-q-text"
+                >How do I securely share my bank statements?</span
+              ><button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-a">
+              We use your accounting software's bank feed (QuickBooks or Xero
+              connects directly to your bank securely). For statements, I use
+              encrypted file-sharing portals. Your bank login credentials are
+              never needed or requested.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span class="faq-q-text">What if my books are years behind?</span
+              ><button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-a">
+              This is the most common situation I encounter — and exactly what
+              my Cleanup & Catch-Up service is for. I've worked on backlogs of
+              up to 3 years. No judgment. I assess the scope, quote you a fixed
+              price, and get it done fast. Most cleanups are completed within
+              5–10 business days.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span class="faq-q-text"
+                >Do you work with businesses in different time zones?</span
+              ><button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-a">
+              Yes — I work with clients in the US (EST/PST), UK, Australia
+              (AEST), and the UAE. I'm flexible with communication hours and
+              respond to messages within 24 hours regardless of time zone. Most
+              work is done asynchronously so time zones are rarely an issue.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span class="faq-q-text">What software do you work with?</span
+              ><button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-a">
+              I'm certified and experienced in QuickBooks Online, QuickBooks
+              Desktop, Xero, SAP Business One (FICO & Logistics), Zoho Books,
+              Odoo, and Peachtree. I also use Advanced Excel for dashboards and
+              reports. If you use different software, ask me — I'm likely
+              familiar with it.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span class="faq-q-text"
+                >Will my accountant/CPA be able to use your work?</span
+              ><button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-a">
+              Absolutely. I prepare books specifically to be tax-ready — meaning
+              your CPA or accountant receives clean, categorized, reconciled
+              books that reduce their time and your cost at tax season. I can
+              also communicate directly with your accountant if needed.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span class="faq-q-text">How do I pay for your services?</span
+              ><button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-a">
+              I accept payment via Upwork (safest, with built-in protection),
+              direct bank transfer, PayPal, or Wise for international clients.
+              Monthly retainer clients are invoiced on the 1st of each month,
+              payable within 5 days.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span class="faq-q-text">What do I need to get started?</span
+              ><button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-a">
+              Just book a free 15-minute call. I'll ask about your business,
+              your current software, and what's giving you the most headaches.
+              After the call, I'll send you a proposal within 24 hours. If
+              you're happy, we sign an NDA and I start within 48 hours. That's
+              it.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span class="faq-q-text"
+                >Do you handle UAE VAT and FTA compliance?</span
+              ><button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-a">
+              Yes. I have direct experience with UAE VAT law, FTA portal filing
+              (VAT201 returns), input/output tax reconciliation, reverse charge
+              mechanisms for imports, and audit-ready record keeping. I'm
+              currently managing VAT for a UAE-based trading company.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span class="faq-q-text"
+                >Can I switch from my current bookkeeper?</span
+              ><button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-a">
+              Yes, and it's easier than you think. I handle the transition,
+              review your existing books for accuracy, and pick up from where
+              things are. Most transitions are completed within a week with zero
+              disruption to your business operations.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-bg" id="contact">
+      <div class="section-inner">
+        <div class="contact-grid">
+          <div class="contact-info-col">
+            <div
+              class="section-tag"
+              style="background: rgba(201, 168, 76, 0.2); color: var(--gold)"
+            >
+              Get In Touch
+            </div>
+            <h2 class="section-h2 white aos">
+              Let's talk about<br />your books. For free.
+            </h2>
+            <p class="section-sub white aos">
+              Book a free 15-minute Calendly call. I'll review your situation
+              and tell you exactly how I can help — no obligation.
+            </p>
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="contact-icon-wrap">📧</div>
+                <div>
+                  <div class="contact-label">Email</div>
+                  <div class="contact-val">maliksaeed1992@gmail.com</div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon-wrap">📅</div>
+                <div>
+                  <div class="contact-label">Book a Call</div>
+                  <div class="contact-val">calendly.com/saeedaccounts</div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon-wrap">🌐</div>
+                <div>
+                  <div class="contact-label">Website</div>
+                  <div class="contact-val">saeedaccounts.com</div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon-wrap">🌍</div>
+                <div>
+                  <div class="contact-label">Serving</div>
+                  <div class="contact-val">
+                    USA · United Kingdom · Australia · UAE
+                  </div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon-wrap">⏱</div>
+                <div>
+                  <div class="contact-label">Response Time</div>
+                  <div class="contact-val">
+                    Within 24 hours — usually faster
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-ctas">
+              <a
+                href="https://calendly.com/saeedaccounts"
+                target="_blank"
+                class="cta-calendly"
+                >📅 Book Free Consultation</a
+              >
+              <a href="https://wa.me/971582613738" class="cta-whatsapp"
+                >💬 WhatsApp Now</a
+              >
+            </div>
+          </div>
+          <div>
+            <div class="form-card">
+              <div class="form-title">📅 Book Your Free 15-Min Call</div>
+              <div class="form-sub">
+                Or send a message and I'll reply within 24 hours
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>First Name</label
+                  ><input type="text" placeholder="John" />
+                </div>
+                <div class="form-group">
+                  <label>Last Name</label
+                  ><input type="text" placeholder="Smith" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Email Address</label
+                ><input type="email" placeholder="john@yourbusiness.com" />
+              </div>
+              <div class="form-group">
+                <label>Business Country</label>
+                <select>
+                  <option>🇺🇸 United States</option>
+                  <option>🇬🇧 United Kingdom</option>
+                  <option>🇦🇺 Australia</option>
+                  <option>🇦🇪 United Arab Emirates</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Accounting Software</label>
+                <select>
+                  <option>QuickBooks Online</option>
+                  <option>QuickBooks Desktop</option>
+                  <option>Xero</option>
+                  <option>SAP Business One</option>
+                  <option>Not set up yet</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>What's your biggest bookkeeping challenge?</label
+                ><textarea
+                  placeholder="E.g. I'm 6 months behind, my books are a mess, I need monthly reporting..."
+                ></textarea>
+              </div>
+              <button class="submit-btn" onclick="handleSubmit()">
+                🔥 Send Message — It's Free →
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <div class="footer-logo-mark">S</div>
+          <div class="footer-brand">Saeed<span>Accounts</span></div>
+        </div>
+        <div class="footer-links">
+          <a href="#services">Services</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#cases">Case Studies</a>
+          <a href="#about">About</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-copy">
+          © 2026 SaeedAccounts · Muhammad Saeed · maliksaeed1992@gmail.com
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // ─── SCROLL ANIMATIONS ───
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("visible");
+            }
+          });
+        },
+        { threshold: 0.12 }
+      );
+      document.querySelectorAll(".aos").forEach((el) => observer.observe(el));
+
+      // ─── NAV SCROLL ───
+      window.addEventListener("scroll", () => {
+        document
+          .getElementById("navbar")
+          .classList.toggle("scrolled", window.scrollY > 60);
+      });
+
+      // ─── FAQ TOGGLE ───
+      function toggleFaq(el) {
+        const item = el.parentElement;
+        const isOpen = item.classList.contains("open");
+        document
+          .querySelectorAll(".faq-item.open")
+          .forEach((i) => i.classList.remove("open"));
+        document
+          .querySelectorAll(".faq-toggle")
+          .forEach((b) => (b.textContent = "+"));
+        if (!isOpen) {
+          item.classList.add("open");
+          el.querySelector(".faq-toggle").textContent = "−";
+        }
+      }
+
+      // ─── FORM SUBMIT ───
+      function handleSubmit() {
+        const btn = document.querySelector(".submit-btn");
+        btn.textContent = "✅ Message Sent! I'll reply within 24 hours.";
+        btn.style.background = "#16a34a";
+        btn.style.color = "white";
+        setTimeout(() => {
+          btn.innerHTML = "🔥 Send Message — It's Free →";
+          btn.style.background = "";
+          btn.style.color = "";
+        }, 4000);
+      }
+
+      // ─── LEAD MAGNET ───
+      function handleMagnet() {
+        const btn = document.querySelector(".magnet-submit");
+        const input = document.querySelector(".magnet-input");
+        if (!input.value.includes("@")) {
+          input.style.borderColor = "#ef4444";
+          setTimeout(() => (input.style.borderColor = ""), 2000);
+          return;
+        }
+        btn.textContent = "✅ Check Your Inbox!";
+        btn.style.background = "#16a34a";
+        input.value = "";
+        setTimeout(() => {
+          btn.textContent = "Send It Free →";
+          btn.style.background = "";
+        }, 4000);
+      }
+
+      // ─── SMOOTH SCROLL ───
+      document.querySelectorAll('a[href^="#"]').forEach((a) => {
+        a.addEventListener("click", (e) => {
+          const t = document.querySelector(a.getAttribute("href"));
+          if (t) {
+            e.preventDefault();
+            t.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
+
+<script>
+  async function handleMagnet() {
+    const btn = document.querySelector(".magnet-submit");
+    const input = document.querySelector(".magnet-input");
+    const email = input.value;
+
+    // Basic email validation
+    if (!email.includes("@")) {
+      input.style.borderColor = "#ef4444";
+      setTimeout(() => (input.style.borderColor = ""), 2000);
+      return;
+    }
+
+    // Update button state
+    btn.textContent = "⌛ Sending...";
+    btn.disabled = true;
+
+    // 🚨 ACTION REQUIRED: Replace the URL below with your Google Web App URL
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbxIp-3K-toZ1OcaoP9xCfMgCvl-jiTLjbCNrNqmCelc/dev";
+
+    try {
+      const response = await fetch(scriptURL, {
+        method: "POST",
+        mode: "no-cors", // Needed for Google Apps Script
+        cache: "no-cache",
+        body: JSON.stringify({ email: email }),
+      });
+
+      btn.textContent = "✅ Sent to your Inbox!";
+      btn.style.background = "#16a34a";
+      input.value = "";
+
+      // Reset button after 5 seconds
+      setTimeout(() => {
+        btn.textContent = "Send It Free →";
+        btn.style.background = "";
+        btn.disabled = false;
+      }, 5000);
+    } catch (error) {
+      btn.textContent = "❌ Error. Try again.";
+      btn.disabled = false;
+      setTimeout(() => {
+        btn.textContent = "Send It Free →";
+      }, 3000);
+    }
+  }
+</script>
